@@ -22,7 +22,7 @@ public class Animation {
 	
 	public void addAnimation(String id, String imagePath) {
 		if (animations.containsKey(id)){
-			animations.get(id).add(Util.getBufferedImage(imagePath));
+			animations.get(id).add(Util.getBufferedImage(imagePath,  getClass().getClassLoader()));
 		}
 		else {
 			animations.put(id, new ArrayList<BufferedImage>());

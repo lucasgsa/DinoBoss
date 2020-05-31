@@ -42,7 +42,7 @@ public class GameInterface extends Canvas {
 		personagem.setPlataform(600);
 		keyState = new KeyBoardQueue();
 		this.addKeyListener(keyState);
-		wallpaper = Util.getBufferedImage("sprites/wallpaper.png");
+		wallpaper = Util.getBufferedImage("com/kpnzstudios/sprites/wallpaper.png", getClass().getClassLoader());
 	}
 	
 	public void checarTeclas() {

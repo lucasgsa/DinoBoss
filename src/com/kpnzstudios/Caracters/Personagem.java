@@ -24,10 +24,10 @@ public class Personagem {
 		this.size_y = sizeY;
 		this.velocidade_y = 0;
 		animations = new Animation();
-		animations.addAnimation("main", "sprites/dino2.png");
-		animations.addAnimation("main", "sprites/dino3.png");
-		animations.addAnimation("main", "sprites/dino4.png");
-		animations.addAnimation("pulo", "sprites/dino.png");
+		animations.addAnimation("main", "com/kpnzstudios/sprites/dino2.png");
+		animations.addAnimation("main", "com/kpnzstudios/sprites/dino3.png");
+		animations.addAnimation("main", "com/kpnzstudios/sprites/dino4.png");
+		animations.addAnimation("pulo", "com/kpnzstudios/sprites/dino.png");
 		animations.setAnimationTime("pulo", 25);
 	}
 	
